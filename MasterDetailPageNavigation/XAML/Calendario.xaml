@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MasterDetailPageNavigation.Calendario" Title="Reminder Page" xmlns:controls="clr-namespace:XamForms.Controls;assembly=XamForms.Controls.Calendar">
+    <ContentPage.Content>
+        <StackLayout>
+            <controls:Calendar SelectedDate="{Binding CalendarSelectedDate, Mode=TwoWay}" HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand" x:Name="calendar" DateCommand="&#xD;&#xA; {Binding DateSelectedcommand}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
